@@ -37,7 +37,7 @@ const CountdownTimer = ({ targetDate }) => {
 
     return (
         <div className="flex flex-col justify-center items-center">
-            <div className='flex-wrap justify-center gap-5 md:flex-row flex'>
+            <div className='grid grid-cols-2 md:grid-cols-4 justify-center gap-5'>
                 {Object.keys(timeLeft).map(interval => (
                     <div className='flex flex-col justify-center items-center'>
                         <div className='flex-col justify-between bg-white/5 drop-shadow-2xl ring-1 ring-white/15 backdrop-blur-2xl w-24 h-24 md:w-36 md:h-36 rounded-2xl  '>
