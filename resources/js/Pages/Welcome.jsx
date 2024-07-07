@@ -1,10 +1,7 @@
 import CountdownTimer from '@/Components/Countdown';
 import { Link, Head } from '@inertiajs/react';
 
-import image1 from '../../assets/images/bg01.jpg';
-import image2 from '../../assets/images/bg02.jpg';
 import Button from '@/Components/Button';
-import { IconContext } from "react-icons";
 
 export default function Welcome({ laravelVersion, phpVersion }) {
 
